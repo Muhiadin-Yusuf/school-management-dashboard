@@ -1,0 +1,6 @@
+.app-shell{min-height:100vh}
+.main-area{margin-left:252px;min-height:100vh}
+.page-content{max-width:1500px;margin:0 auto;padding:32px 34px 55px}
+.mobile-scrim{display:none}
+@media(max-width:1100px){.main-area{margin-left:220px}.page-content{padding:27px 24px}}
+@media(max-width:760px){.main-area{margin-left:0}.page-content{padding:23px 15px 40px}.mobile-scrim{display:block;position:fixed;inset:0;background:#11182770;border:0;z-index:15}}

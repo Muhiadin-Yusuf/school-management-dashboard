@@ -1,0 +1,6 @@
+.stat-card{background:#fff;border:1px solid #e9edf2;border-radius:12px;padding:20px;display:flex;align-items:center;gap:15px;min-height:105px;box-shadow:0 3px 12px #26344b08}
+.stat-icon{width:42px;height:42px;border-radius:11px;display:grid;place-items:center;flex-shrink:0}
+.stat-icon.blue{background:#e9f1ff;color:#3977dc}.stat-icon.purple{background:#f0eaff;color:#8259d5}.stat-icon.orange{background:#fff2df;color:#e79a23}.stat-icon.green{background:#e5f8ef;color:#1a9b62}.stat-icon.red{background:#ffeded;color:#dc5252}
+.stat-copy span,.stat-copy small{display:block;color:#8993a2;font-size:11px}.stat-copy strong{display:block;font-size:23px;letter-spacing:-.5px;margin:5px 0 2px;color:#263247}.stat-copy small{font-size:10px}
+@media(max-width:1100px){.stat-card{padding:14px;gap:10px;min-height:90px}.stat-icon{width:36px;height:36px}.stat-copy strong{font-size:20px}}
+@media(max-width:480px){.stat-card{padding:12px}.stat-copy span{font-size:10px}.stat-copy strong{font-size:18px}}

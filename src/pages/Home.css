@@ -1,0 +1,11 @@
+.stats-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:17px;margin-bottom:22px}
+.home-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:18px}
+.simple-list{display:grid}.simple-row{display:flex;align-items:center;gap:11px;padding:12px 0;border-top:1px solid #f0f2f5}
+.person-avatar{width:35px;height:35px;border-radius:10px;background:#edf2fc;color:#4568a7;display:grid;place-items:center;font-size:11px;font-weight:700}
+.person-info{flex:1}.person-info strong,.person-info small{display:block}.person-info strong{font-size:12px}.person-info small{font-size:10px;color:#939baa;margin-top:4px}
+.fee-summary{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:23px 0}.fee-summary div{padding:14px;background:#f8fafc;border-radius:9px}
+.fee-summary span{display:block;font-size:11px;color:#8791a1}.fee-summary strong{display:block;font-size:23px;margin-top:5px}
+.green-text{color:#159b60}.red-text{color:#d84c4c}.progress-track{height:8px;border-radius:20px;background:#f0f2f5;overflow:hidden}
+.progress-fill{height:100%;background:#1ca66a;border-radius:20px}.small-note{margin-top:10px}
+@media(max-width:1100px){.stats-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:760px){.home-grid{grid-template-columns:1fr}}

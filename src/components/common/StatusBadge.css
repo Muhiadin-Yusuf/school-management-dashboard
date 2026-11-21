@@ -1,0 +1,3 @@
+.status-badge{display:inline-flex;align-items:center;border-radius:20px;padding:5px 10px;font-size:10px;font-weight:700}
+.status-badge.active,.status-badge.paid{background:#e3f8ed;color:#16834f}
+.status-badge.inactive,.status-badge.unpaid{background:#ffebeb;color:#cb4242}

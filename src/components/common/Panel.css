@@ -1,0 +1,14 @@
+.panel{background:#fff;border:1px solid #e9edf2;border-radius:12px;padding:23px;margin-bottom:21px;box-shadow:0 3px 13px #26344b08}
+.panel h2{font-size:16px;margin:0;color:#29364a}
+.panel-heading{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:18px}
+.muted{font-size:11px;color:#929baa}
+.table-wrap{width:100%;overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:12px;white-space:nowrap}
+th{text-align:left;background:#f2f5fa;color:#596579;font-size:11px;font-weight:700;padding:13px 14px}
+td{padding:14px;border-bottom:1px solid #edf0f4;color:#4c586b}
+td strong{color:#2d394c;font-weight:600}
+tbody tr:last-child td{border-bottom:0}tbody tr:hover{background:#fbfcfe}
+.empty-state{text-align:center;color:#929baa;font-size:12px;padding:24px}
+.icon-btn{width:30px;height:30px;border:0;border-radius:7px;background:#f1f4f8;color:#627087;display:inline-grid;place-items:center}
+.icon-btn.danger{background:#fff0f0;color:#d24b4b}
+.status-button{border:0;background:transparent;padding:0}
